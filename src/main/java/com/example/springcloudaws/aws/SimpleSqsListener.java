@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class SimpleSqsListener {
 
-    @SqsListener("topic-arn")
+//    @SqsListener("topic-arn")
     public void handle(String message) {
         log.info("topic-arn listen message : {}", message);
     }
